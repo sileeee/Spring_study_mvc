@@ -4,7 +4,7 @@ import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
 
 @Configuration
-@ComponentScan(useDefaultFilters = false, includeFilters = @ComponentScan.Filter(HelloController.class))
+@ComponentScan
 public class WebConfig {
 
 }
