@@ -3,7 +3,7 @@
  "http://java.sun.com/dtd/web-app_2_3.dtd" >
 
 <web-app>
-  <display-name>Archetype Created Web Application</display-name>
+  <display-name>Web Application</display-name>
 
   <servlet>
     <servlet-name>app</servlet-name>
@@ -14,7 +14,7 @@
     </init-param>
     <init-param>
       <param-name>contextConfigLocation</param-name>
-      <param-value>me.sieun.WebConfig</param-value>
+      <param-value>me.whiteship.WebConfig</param-value>
     </init-param>
   </servlet>
 

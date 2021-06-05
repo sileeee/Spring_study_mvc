@@ -20,7 +20,7 @@ public class HelloController {
 
     @GetMapping("/sample")
     public String sample(){
-        return "/WEB-INF/sample.jsp";
+        return "sample";
     } //ResponseBody가 없이 문자열 리턴 -> 뷰 이름으로 인식
     //ModelAndView가 null이 아님
 
